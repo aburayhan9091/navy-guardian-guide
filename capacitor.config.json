@@ -1,0 +1,35 @@
+{
+  "appId": "app.lovable.e377ecde9c7a4b46b249356d70c67886",
+  "appName": "navy-guardian-guide",
+  "webDir": "dist",
+  "server": {
+    "url": "https://e377ecde-9c7a-4b46-b249-356d70c67886.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "Keyboard": {
+      "resize": "body",
+      "style": "dark",
+      "resizeOnFullScreen": true
+    }
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "ios": {
+    "contentInset": "automatic",
+    "scrollEnabled": true,
+    "webContentsDebuggingEnabled": true
+  }
+}
